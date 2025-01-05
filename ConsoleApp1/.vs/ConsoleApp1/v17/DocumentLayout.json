@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|c:\\users\\rik\\documents\\github\\stripsservice\\consoleapp1\\stripcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|solutionrelative:stripcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|c:\\users\\rik\\documents\\github\\stripsservice\\consoleapp1\\models\\reeksef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|solutionrelative:models\\reeksef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|c:\\users\\rik\\documents\\github\\stripsservice\\consoleapp1\\models\\autheuref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|solutionrelative:models\\autheuref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|ConsoleApp1.csproj|c:\\users\\rik\\documents\\github\\stripsservice\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|c:\\users\\rik\\documents\\github\\stripsservice\\consoleapp1\\models\\uitgeverijef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|solutionrelative:models\\uitgeverijef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|c:\\users\\rik\\documents\\github\\stripsservice\\consoleapp1\\models\\stripef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE1C88A8-1A8A-4379-946E-34C56DC9612D}|StripsDL.csproj|solutionrelative:models\\stripef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StripEF.cs",
+              "DocumentMoniker": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\StripEF.cs",
+              "RelativeDocumentMoniker": "Models\\StripEF.cs",
+              "ToolTip": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\StripEF.cs",
+              "RelativeToolTip": "Models\\StripEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:40:19.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UitgeverijEF.cs",
+              "DocumentMoniker": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\UitgeverijEF.cs",
+              "RelativeDocumentMoniker": "Models\\UitgeverijEF.cs",
+              "ToolTip": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\UitgeverijEF.cs",
+              "RelativeToolTip": "Models\\UitgeverijEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:38:03.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StripContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\StripContext.cs",
+              "RelativeDocumentMoniker": "StripContext.cs",
+              "ToolTip": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\StripContext.cs",
+              "RelativeToolTip": "StripContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:38:45.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReeksEF.cs",
+              "DocumentMoniker": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\ReeksEF.cs",
+              "RelativeDocumentMoniker": "Models\\ReeksEF.cs",
+              "ToolTip": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\ReeksEF.cs",
+              "RelativeToolTip": "Models\\ReeksEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:37:59.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutheurEF.cs",
+              "DocumentMoniker": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\AutheurEF.cs",
+              "RelativeDocumentMoniker": "Models\\AutheurEF.cs",
+              "ToolTip": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Models\\AutheurEF.cs",
+              "RelativeToolTip": "Models\\AutheurEF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:35:03.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Rik\\Documents\\GitHub\\StripsService\\ConsoleApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T14:08:22.283Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
