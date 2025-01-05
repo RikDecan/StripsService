@@ -5,12 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StripDL.Models
+namespace StripsDL.Models
 {
     public class StripEF
     {
         public StripEF()
         {       
+        }
+
+        public StripEF(int id, string titel, int reeksNr)
+        {
+            Id = id;
+            Titel = titel;
+            ReeksNr = reeksNr;
         }
 
         [Key]

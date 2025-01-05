@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StripsDL
-build_property.ProjectDir = C:\Users\Rik\Desktop\StripsOpdracht\StripsDL\
+build_property.ProjectDir = C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsDL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

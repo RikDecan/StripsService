@@ -1,0 +1,15 @@
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\bin\Debug\net8.0\StripsBL.exe
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\bin\Debug\net8.0\StripsBL.deps.json
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\bin\Debug\net8.0\StripsBL.runtimeconfig.json
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\bin\Debug\net8.0\StripsBL.dll
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\bin\Debug\net8.0\StripsBL.pdb
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.AssemblyInfoInputs.cache
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.AssemblyInfo.cs
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.csproj.CoreCompileInputs.cache
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.sourcelink.json
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.dll
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\refint\StripsBL.dll
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.pdb
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\StripsBL.genruntimeconfig.cache
+C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsBL\obj\Debug\net8.0\ref\StripsBL.dll

@@ -1,4 +1,4 @@
-﻿using StripDL.Models;
+﻿using StripsDL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

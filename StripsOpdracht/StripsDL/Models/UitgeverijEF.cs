@@ -5,12 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StripDL.Models
+namespace StripsDL.Models
 {
     public class UitgeverijEF
     {
         public UitgeverijEF()
         {            
+        }
+
+        public UitgeverijEF(int id, string naam, string adres)
+        {
+            Id = id;
+            Naam = naam;
+            Adres = adres;
         }
 
         [Key]
@@ -19,5 +26,6 @@ namespace StripDL.Models
 
         //navigational props
         public ICollection <StripEF> Strips { get; set; }
+        public string Adres { get; }
     }
 }

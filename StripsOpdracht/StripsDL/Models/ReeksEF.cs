@@ -5,13 +5,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StripDL.Models
+namespace StripsDL.Models
 {
     public class ReeksEF
     {
-
         public ReeksEF()
         {           
+        }
+        public ReeksEF(int id, string naam)
+        {
+            Id = id;
+            Naam = naam;
         }
 
         [Key]
