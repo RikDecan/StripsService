@@ -7,6 +7,8 @@ using System.Reflection;
 using StripsBL.Interfaces;
 using StripsBL.Models;
 using StripsBL.Services;
+using StripsDL.Models;
+using StripsREST.DTO;
 
 //using GymDL.Models;
 //using GymDL.Mappers;
@@ -43,13 +45,32 @@ namespace StripsREST.Controllers
             return repo.GetAllStrips();
         }
 
-
-
         [Route("RemoveStrip/{id}")]
         [HttpDelete]
         public bool RemoveStrip(int id)
         {
             return repo.RemoveStrip(id);
+        }
+
+        public StripBL Update(int id, [FromBody] StripDTO stripDTO)
+        {
+            //UitgeverijBL uitgeverij = Uit.GetUitgeverij(stripDTO.UitgeverijID);
+            //Reeks reeks = _reeksService.GetReeks(stripDTO.ReeksID);
+            //List<Auteur> auteurs = new List<Auteur>();
+
+
+            //Strip strip = new Strip(
+            //    id,
+            //    stripDTO.Titel,
+            //    stripDTO.Nummer,
+            //    reeks,
+            //    auteurs,
+            //    uitgeverij
+            //    );
+
+            //return repo.Update(strip);
+
+            return null; 
         }
 
     }

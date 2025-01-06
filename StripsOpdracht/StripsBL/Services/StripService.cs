@@ -30,11 +30,7 @@ namespace StripsBL.Services
         public bool RemoveStrip(int id)
         {
             return repo.RemoveStrip(id);
-        }
-
-        
-
-
+        }  
 
     }
 }
