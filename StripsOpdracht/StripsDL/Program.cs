@@ -19,7 +19,7 @@ internal class Program
                 throw new Exception("Database opnieuw aangemaken niet gelukt");
             }
 
-            DatabaseSeeder.SeedFromFile(@"C:\Users\Rik\Desktop\StripsOpdracht\StripsDL\stripsData.txt");
+            DatabaseSeeder.SeedFromFile(@"C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsDL\stripsData.txt");
             Console.WriteLine("Database is gepopuleerd");
 
 

@@ -13,7 +13,7 @@ namespace StripsDL.Models
         {            
         }
 
-        public UitgeverijEF(int id, string naam, string adres)
+        public UitgeverijEF(int id, string naam, string? adres)
         {
             Id = id;
             Naam = naam;
@@ -23,9 +23,9 @@ namespace StripsDL.Models
         [Key]
         public int Id { get; set; }
         public string Naam { get; set; }
+        public string?  Adres { get; set; }
 
         //navigational props
         public ICollection <StripEF> Strips { get; set; }
-        public string Adres { get; }
     }
 }

@@ -9,6 +9,11 @@ namespace StripsBL.Models
 {
     public class UitgeverijBL
     {
+        public UitgeverijBL()
+        {
+            
+        }
+
         public UitgeverijBL(int id, string naam, string adres)
         {
             Id = id;

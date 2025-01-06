@@ -3,7 +3,6 @@ C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\obj\Debug\
 C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\obj\Debug\net8.0\StripsREST.AssemblyInfoInputs.cache
 C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\obj\Debug\net8.0\StripsREST.AssemblyInfo.cs
 C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\obj\Debug\net8.0\StripsREST.csproj.CoreCompileInputs.cache
-C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\obj\Debug\net8.0\StripsREST.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\obj\Debug\net8.0\StripsREST.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\obj\Debug\net8.0\StripsREST.sourcelink.json
 C:\Users\Rik\Documents\GitHub\StripsService\StripsOpdracht\StripsREST\bin\Debug\net8.0\StripsBL.deps.json

@@ -8,6 +8,10 @@ namespace StripsBL.Models
 {
     public class ReeksBL
     {
+        public ReeksBL()
+        {
+        }
+
         public ReeksBL(int id, string naam)
         {
             Id = id;

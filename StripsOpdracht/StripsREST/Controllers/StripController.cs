@@ -29,12 +29,18 @@ namespace StripsREST.Controllers
             this.repo = repo;
         }
 
-
         [Route("GetStripById/{id}")]
         [HttpGet]
         public StripBL GetStripById(int id)
         {
             return repo.GetStripById(id);
+        }
+
+        [Route("GetAllStrips")]
+        [HttpGet]
+        public List <StripBL> GetAllStrips()
+        {
+            return repo.GetAllStrips();
         }
     }
 }

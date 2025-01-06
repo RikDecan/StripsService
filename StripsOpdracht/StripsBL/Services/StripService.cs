@@ -20,14 +20,13 @@ namespace StripsBL.Services
 
         public StripBL GetStripById(int id)
         {
-            try
-            {
-                return repo.GetStripById(id);
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Geef Strip", ex);
-            }
+                return repo.GetStripById(id);         
         }
+        public List<StripBL> GetAllStrips()
+        {
+            return repo.GetAllStrips();
+        }
+
+
     }
 }

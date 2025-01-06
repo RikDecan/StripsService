@@ -13,11 +13,14 @@ namespace StripsDL.Models
         {       
         }
 
-        public StripEF(int id, string titel, int reeksNr)
+        public StripEF(int id, string titel, int reeksNr, ICollection<AuteurEF> auteurs, UitgeverijEF uitgeverij, ReeksEF reeks)
         {
             Id = id;
             Titel = titel;
             ReeksNr = reeksNr;
+            Auteurs = auteurs;
+            Uitgeverij = uitgeverij;
+            Reeks = reeks;
         }
 
         [Key]

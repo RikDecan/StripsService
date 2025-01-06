@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using StripsBL.Interfaces;
 using StripsBL.Models;
 using StripsDL.Mappers;
@@ -27,11 +28,15 @@ namespace StripsDL.Repositories
         {
             try
             {
-                var strip = _context.Strips.FirstOrDefault(e => e.Id == id);
+                var strip = _context.Strips
+                    .Include(s => s.Auteurs)
+                    .Include(s => s.Reeks)
+                    .Include(s => s.Uitgeverij)
+                    .FirstOrDefault(e => e.Id == id);
 
                 if (strip == null)
                 {
-                    throw new Exception("Equipment not found");
+                    throw new Exception("strip not found");
                 }
 
                 return MapStrips.MapToDomain(strip);
@@ -40,6 +45,11 @@ namespace StripsDL.Repositories
             {
                 throw;
             }
+        }
+
+        public List<StripBL> GetAllStrips()
+        {
+            return _context.Strips.Include(strip => strip.Auteurs).Include(strip => strip.Reeks).Include(strip => strip.Uitgeverij).Select(strip => MapStrips.MapToDomain(strip)).ToList();
         }
 
     }

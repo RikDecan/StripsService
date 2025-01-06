@@ -36,7 +36,7 @@ namespace StripsDL.Migrations
                     b.ToTable("AuteurEFStripEF");
                 });
 
-            modelBuilder.Entity("StripDL.Models.AuteurEF", b =>
+            modelBuilder.Entity("StripsDL.Models.AuteurEF", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -57,7 +57,7 @@ namespace StripsDL.Migrations
                     b.ToTable("Auteurs");
                 });
 
-            modelBuilder.Entity("StripDL.Models.ReeksEF", b =>
+            modelBuilder.Entity("StripsDL.Models.ReeksEF", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -74,7 +74,7 @@ namespace StripsDL.Migrations
                     b.ToTable("Reeksen");
                 });
 
-            modelBuilder.Entity("StripDL.Models.StripEF", b =>
+            modelBuilder.Entity("StripsDL.Models.StripEF", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -104,13 +104,16 @@ namespace StripsDL.Migrations
                     b.ToTable("Strips");
                 });
 
-            modelBuilder.Entity("StripDL.Models.UitgeverijEF", b =>
+            modelBuilder.Entity("StripsDL.Models.UitgeverijEF", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Adres")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Naam")
                         .IsRequired()
@@ -123,28 +126,28 @@ namespace StripsDL.Migrations
 
             modelBuilder.Entity("AuteurEFStripEF", b =>
                 {
-                    b.HasOne("StripDL.Models.AuteurEF", null)
+                    b.HasOne("StripsDL.Models.AuteurEF", null)
                         .WithMany()
                         .HasForeignKey("AuteursId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("StripDL.Models.StripEF", null)
+                    b.HasOne("StripsDL.Models.StripEF", null)
                         .WithMany()
                         .HasForeignKey("StripsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("StripDL.Models.StripEF", b =>
+            modelBuilder.Entity("StripsDL.Models.StripEF", b =>
                 {
-                    b.HasOne("StripDL.Models.ReeksEF", "Reeks")
+                    b.HasOne("StripsDL.Models.ReeksEF", "Reeks")
                         .WithMany("Strips")
                         .HasForeignKey("ReeksId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("StripDL.Models.UitgeverijEF", "Uitgeverij")
+                    b.HasOne("StripsDL.Models.UitgeverijEF", "Uitgeverij")
                         .WithMany("Strips")
                         .HasForeignKey("UitgeverijId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -155,12 +158,12 @@ namespace StripsDL.Migrations
                     b.Navigation("Uitgeverij");
                 });
 
-            modelBuilder.Entity("StripDL.Models.ReeksEF", b =>
+            modelBuilder.Entity("StripsDL.Models.ReeksEF", b =>
                 {
                     b.Navigation("Strips");
                 });
 
-            modelBuilder.Entity("StripDL.Models.UitgeverijEF", b =>
+            modelBuilder.Entity("StripsDL.Models.UitgeverijEF", b =>
                 {
                     b.Navigation("Strips");
                 });

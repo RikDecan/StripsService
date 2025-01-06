@@ -10,7 +10,11 @@ namespace StripsBL.Interfaces
 {
     public interface IStripRepository
     {
-        public StripBL GetStripById(int id);      
+        public StripBL GetStripById(int id);
+
+        public List<StripBL> GetAllStrips();
+
+
 
 
     }
