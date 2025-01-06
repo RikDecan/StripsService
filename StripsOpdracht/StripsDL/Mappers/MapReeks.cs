@@ -11,22 +11,35 @@ namespace StripsDL.Mappers
         {
             try
             {
-                return new ReeksBL(db.Id, db.Naam);
+                ReeksBL reeks = new ReeksBL();
+
+                reeks.Id = db.Id;
+                reeks.Naam = db.Naam;
+                reeks.Strips = db.Strips.Select(MapStrips.MapToDomain).ToList();
+
+
+                return reeks;
             }
             catch (Exception ex)
             {
-                throw new Exception("MapProgram - MapToDomain");
+                throw new Exception("MapReeks - MapToDomain");
             }
         }
         public static ReeksEF MapToDB(ReeksBL g)
         {
             try
             {
-                return new ReeksEF(g.Id, g.Naam);
+                ReeksEF reeks = new ReeksEF();
+
+                reeks.Id = g.Id;
+                reeks.Naam = g.Naam;
+                reeks.Strips = g.Strips.Select(MapStrips.MapToDB).ToList() ?? new List<StripEF>();
+
+                return reeks;
             }
             catch (Exception ex)
             {
-                throw new Exception("MapProgram - MapToDB");
+                throw new Exception("MapReeks - MapToDB");
             }
         }
     }

@@ -14,22 +14,40 @@ namespace StripsDL.Mappers
         {
             try
             {
-                return new UitgeverijBL(db.Id, db.Naam, db.Adres);
+                //return new UitgeverijBL(db.Id, db.Naam, db.Adres);
+
+                UitgeverijBL uitgeverij = new UitgeverijBL();
+
+                uitgeverij.Id = db.Id;
+                uitgeverij.Naam = db.Naam;
+                uitgeverij.Adres = db.Adres;
+                uitgeverij.Strips = db.Strips.Select(MapStrips.MapToDomain).ToList();
+
+                return uitgeverij;
             }
             catch (Exception ex)
             {
-                throw new Exception("MapProgram - MapToDomain");
+                throw new Exception("MapUitgeverij - MapToDomain");
             }
         }
         public static UitgeverijEF MapToDB(UitgeverijBL g)
         {
             try
             {
-                return new UitgeverijEF(g.Id, g.Naam, g.Adres);
+                //return new UitgeverijEF(g.Id, g.Naam, g.Adres);
+                UitgeverijEF uitgeverij = new UitgeverijEF();
+
+
+                uitgeverij.Id=g.Id;
+                uitgeverij.Naam=g.Naam;
+                uitgeverij.Adres=g.Adres;
+                uitgeverij.Strips = g.Strips.Select(MapStrips.MapToDB).ToList() ?? new List<StripEF>();
+
+                return uitgeverij;
             }
             catch (Exception ex)
             {
-                throw new Exception("MapProgram - MapToDB");
+                throw new Exception("MapUitgeverij - MapToDB");
             }
         }
     }

@@ -24,7 +24,7 @@ namespace StripsDL.Mappers
             }
             catch (Exception ex)
             {
-                throw new Exception("MapProgram - MapToDomain");
+                throw new Exception("MapStrips - MapToDomain");
             }
         }
         public static StripEF MapToDB(StripBL g)
@@ -45,7 +45,7 @@ namespace StripsDL.Mappers
             }
             catch (Exception ex)
             {
-                throw new Exception("MapProgram - MapToDB");
+                throw new Exception("MapStrips - MapToDB");
             }
         }
     }
