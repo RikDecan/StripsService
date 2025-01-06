@@ -39,7 +39,7 @@ namespace StripsDL.Repositories
                     throw new Exception("strip not found");
                 }
 
-                return MapStrips.MapToDomain(strip);
+                return MapStrips.MapToDomainZonderReeks(strip);
             }
             catch (Exception ex)
             {

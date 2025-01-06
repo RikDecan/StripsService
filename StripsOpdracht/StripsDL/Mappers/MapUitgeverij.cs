@@ -21,7 +21,6 @@ namespace StripsDL.Mappers
                 uitgeverij.Id = db.Id;
                 uitgeverij.Naam = db.Naam;
                 uitgeverij.Adres = db.Adres;
-                uitgeverij.Strips = db.Strips.Select(MapStrips.MapToDomain).ToList();
 
                 return uitgeverij;
             }
@@ -41,7 +40,6 @@ namespace StripsDL.Mappers
                 uitgeverij.Id=g.Id;
                 uitgeverij.Naam=g.Naam;
                 uitgeverij.Adres=g.Adres;
-                uitgeverij.Strips = g.Strips.Select(MapStrips.MapToDB).ToList() ?? new List<StripEF>();
 
                 return uitgeverij;
             }

@@ -27,6 +27,24 @@ namespace StripsDL.Mappers
                 throw new Exception("MapStrips - MapToDomain");
             }
         }
+        public static StripBL MapToDomainZonderReeks(StripEF db)
+        {
+            try
+            {
+                StripBL strip = new StripBL();
+                strip.Id = db.Id;
+                strip.Titel = db.Titel;
+                strip.ReeksNr = db.ReeksNr;
+                strip.Auteurs = db.Auteurs.Select(MapAuteur.MapToDomain).ToList() ?? new List<AuteurBL>();
+                strip.Uitgeverij = db.Uitgeverij != null ? MapUitgeverij.MapToDomain(db.Uitgeverij) : new UitgeverijBL();
+                return strip;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("MapStrips - MapToDomain");
+            }
+        }
         public static StripEF MapToDB(StripBL g)
         {
             try

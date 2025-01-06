@@ -20,7 +20,6 @@ namespace StripsDL.Mappers
                 auteur.Id = db.Id;
                 auteur.Naam = db.Naam;
                 auteur.EmailAdres = db.EmailAdres;
-                auteur.Strips = db.Strips.Select(MapStrips.MapToDomain).ToList();
 
                 return auteur;
             }
@@ -39,7 +38,6 @@ namespace StripsDL.Mappers
                 auteur.Id = g.Id;
                 auteur.Naam = g.Naam;
                 auteur.EmailAdres = g.EmailAdres;
-                auteur.Strips = g.Strips.Select(MapStrips.MapToDB).ToList() ?? new List<StripEF>();
 
 
                 return auteur;
