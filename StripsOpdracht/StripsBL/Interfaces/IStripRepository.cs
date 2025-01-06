@@ -14,7 +14,7 @@ namespace StripsBL.Interfaces
 
         public List<StripBL> GetAllStrips();
 
-
+        public bool RemoveStrip(int id);
 
 
     }

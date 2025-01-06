@@ -52,5 +52,25 @@ namespace StripsDL.Repositories
             return _context.Strips.Include(strip => strip.Auteurs).Include(strip => strip.Reeks).Include(strip => strip.Uitgeverij).Select(strip => MapStrips.MapToDomain(strip)).ToList();
         }
 
+
+
+
+        public bool RemoveStrip(int id)
+        {
+           var stripEF = _context.Strips.FirstOrDefault( m => m.Id == id);
+
+            if(stripEF != null)
+            {
+                _context.Strips.Remove(stripEF);
+                _context.SaveChanges();
+                return true;
+            }
+            else 
+            { 
+                throw new Exception("This strip doesn't exist");
+            }
+        }
+
+
     }
 }

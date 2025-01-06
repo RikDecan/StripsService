@@ -42,5 +42,15 @@ namespace StripsREST.Controllers
         {
             return repo.GetAllStrips();
         }
+
+
+
+        [Route("RemoveStrip/{id}")]
+        [HttpDelete]
+        public bool RemoveStrip(int id)
+        {
+            return repo.RemoveStrip(id);
+        }
+
     }
 }

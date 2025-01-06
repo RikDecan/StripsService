@@ -27,6 +27,14 @@ namespace StripsBL.Services
             return repo.GetAllStrips();
         }
 
+        public bool RemoveStrip(int id)
+        {
+            return repo.RemoveStrip(id);
+        }
+
+        
+
+
 
     }
 }

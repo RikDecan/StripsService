@@ -44,5 +44,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "StripsREST.Controllers.StripController",
+    "Method": "RemoveStrip",
+    "RelativePath": "api/Strip/RemoveStrip/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
